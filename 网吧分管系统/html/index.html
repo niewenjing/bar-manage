@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html>
+<head lang="en">
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width,initial-scale=1">
+    <meta http-equiv="X-UA-Compatible" content="IE=Edge">
+    <title>网吧机位分管系统</title>
+    <link rel="stylesheet" href="../css/index.css">
+    <script rel="script" type="text/javascript" src="../js/jquery-1.4.2.js"></script>
+
+</head>
+<body>
+<div id="customer">
+    <p class="show-login">这里是客人</p>
+    <div id="customer-index" class="login">
+        <iframe src="customer/login.html"></iframe>
+    </div>
+</div>
+<div id="main" align="center">
+    welcome！
+</div>
+<div id="employee">
+    <p class="show-login">这里是员工</p>
+    <div id="employee-index" class="login">
+        <iframe src="employee/login.html"></iframe>
+    </div>
+</div>
+<div id="boss">
+    <p class="show-login">这里是老板</p>
+    <div id="boss-index" class="login">
+        <iframe src="boss/login.html"></iframe>
+    </div>
+</div>
+</body>
+<script type="text/javascript">
+    $(".show-login").click(function(){
+        $(this).next().slideToggle("slow");
+    })
+  
+</script>
+</html>

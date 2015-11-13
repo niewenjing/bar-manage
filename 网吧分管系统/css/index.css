@@ -1,0 +1,41 @@
+body {
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 18px;
+}
+#main {
+    background-color: #FA8072;
+    font-size:60px ;
+    color: #DCDCDC;
+    /*width: 98%;*/
+    line-height: 500px;
+ /*   position: absolute;
+    top: 0;
+    left:0;*/
+}
+
+#customer {
+    background-color: #FFB6C1;
+    position: absolute;
+    top: 0;
+    left:0;
+}
+#employee {
+    background-color: #EE82EE;
+    line-height: 200px;
+    width: 20%;
+    position: absolute;
+    right: 0;
+    top: 0;
+}
+
+#boss {
+    background-color: #FFDAB9;
+    position: absolute;
+    bottom: 0;
+    left:0;
+}
+
+.login {
+   display: none;
+ }
+

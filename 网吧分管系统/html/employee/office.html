@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html>
+<head lang="en">
+    <meta charset="UTF-8">
+    <title>老板和员工办理业务</title>
+    <link rel="stylesheet" type="text/css" href="../../css/office.css"/>
+    <script rel="script" type="text/javascript" src="../../js/jquery-1.4.2.js"></script>
+</head>
+<body>
+<div id="office"><!--客人信息录入-->
+<p>上机客人信息录入及业务办理</p>
+    <form id="message">
+        <p>姓名<input type="text"/></p>
+        <p>身份证号<input type="text"/></p>
+        <p>上机时长<select name="number">
+                <option value="1">1</option>
+                <option value="2">2</option>
+                <option value="3">3</option>
+                 </select>小时</p>
+        <p>剩余时间<input type="time"/></p>
+        <p>座位号<input type="text"/>排<input type="text"/>列</p>
+        <input type="submit" value="确定"/>
+    </form>
+</div>
+<div id="map"><!--网吧平面图展示-->
+    <a herf="#"class="chair">111</a>
+    <a herf="#"class="chair">222</a>
+    <a herf="#"class="chair">333</a>
+    <a herf="#"class="chair">444</a>
+    <a herf="#"class="chair">555</a>
+
+
+    <a herf="#"></a>
+    <a herf="#"></a>
+    <a herf="#"></a>
+    <a herf="#"></a>
+
+
+</div>
+<button type="button" onclick="$('#account').show();">查看台账</button>
+<div id="account"><!--老板可见的台账信息-->
+<table border="1px">
+    <tr>
+    <th>员工号</th>
+    <th>员工用户名</th>
+    <th>业务操作</th>
+    <th>时间</th>
+    <th>接待客户姓名</th>
+    <th>客户证件号</th>
+    <th>客人座位号</th></tr>
+    <tr>
+        <td>22322</td>
+        <td>王小二</td>
+        <td>上机</td>
+        <td>2015-06-06</td>
+        <td>李上</td>
+        <td>410728199010104021</td>
+        <td>1排4列</td>
+
+    </tr>
+
+
+</table>
+</div>
+</body>
+</html>
