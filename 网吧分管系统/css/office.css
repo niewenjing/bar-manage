@@ -1,0 +1,13 @@
+.chair {
+    width: 30px;
+    height: 20px;
+    background-color: darkgreen;
+}
+#map {
+    height: 200px;
+    width: 300px;
+    background-color: goldenrod;
+}
+#account {
+    display: none;
+}
